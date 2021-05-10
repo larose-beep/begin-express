@@ -11,6 +11,8 @@ an express starter kit written in typescript.
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [ts-node](https://www.npmjs.com/package/ts-node)
 - [typescript](https://www.npmjs.com/package/typescript)
+- [mocha](https://www.npmjs.com/package/mocha)
+- [supertest](https://www.npmjs.com/package/supertest)
 
 #### Setup
 
