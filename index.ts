@@ -10,7 +10,7 @@ import { router as routes } from "./src/routes";
 
 const { PORT, NODE_ENV } = environment;
 
-const app = express();
+export const app = express();
 
 app.use(helmet());
 
@@ -22,7 +22,7 @@ app.use(routes);
 
 app.use(errorHandler);
 
-const server = http.createServer(app);
+export const server = http.createServer(app);
 
 server.on("listening", () => {
   const address = server.address() as AddressInfo;
