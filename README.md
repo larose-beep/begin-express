@@ -24,6 +24,14 @@ an express starter kit written in typescript.
 $ yarn install
 ```
 
+##### running mocha test
+
+[]()
+
+```bash
+$ yarn test
+```
+
 ##### running
 
 []()
