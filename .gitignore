@@ -1,0 +1,11 @@
+# remove modules
+**/node_modules
+
+# remove env files
+.env
+
+# remove logs
+*.logs
+
+# remove build folder
+dist
