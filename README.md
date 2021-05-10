@@ -5,6 +5,7 @@ an express starter kit written in typescript.
 #### Packages includes:
 
 - [express](https://www.npmjs.com/package/express)
+- [nodemon](https://www.npmjs.com/package/nodemon)
 - [morgan](https://www.npmjs.com/package/morgan)
 - [cors](https://www.npmjs.com/package/cors)
 - [helmet](https://www.npmjs.com/package/cors)
