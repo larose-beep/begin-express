@@ -27,7 +27,7 @@ $ yarn install
 []()
 
 ```bash
-$ yarn install
+$ yarn start
 ```
 
 ##### running live (nodemon)
@@ -35,5 +35,5 @@ $ yarn install
 []()
 
 ```bash
-$ yarn install
+$ yarn nodemon
 ```
