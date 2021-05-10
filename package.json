@@ -20,9 +20,14 @@
   },
   "scripts": {
     "start": "ts-node .",
-    "nodemon": "nodemon --watch . --ext ts,json,.env --exec yarn start"
+    "nodemon": "nodemon --watch . --ext ts,json,.env --exec yarn start",
+    "test": "mocha --check-leaks -r ts-node/register \"**/*.test.ts\""
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "@types/mocha": "^8.2.2",
+    "@types/supertest": "^2.0.11",
+    "mocha": "^8.4.0",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
   }
 }
